@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+    display: block;
+
+}
+background{
+    width: 100vh;
+    height: 100vh;
+}
+/*about section*/
+div{
+    display:flex
+    
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+}
+.self-portrait{
+    width: 600px;
+}
+.self2{
+    padding: 60px;
+    overflow: hidden;
+}
+h3{
+    color: #728394;
+}
