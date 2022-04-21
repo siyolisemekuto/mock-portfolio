@@ -1,47 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SM Mock Portfolio</title>
-  <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/47f71f9d8c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <section id="landing">
-
-  </section>
-  <section id=about>
-    <div><h2> ABOUT </h2></div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam eligendi recusandae, ipsam voluptates labore dolore libero ullam? Nulla, vitae molestiae nobis, fugit, nihil sunt totam unde laborum rerum ab provident! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis exercitationem at iure assumenda dolorem sed nesciunt provident nihil, molestiae commodi totam ut, fugiat repellendus nobis sit, optio alias ullam fuga.</p>
-    <div><img src="./images/siyonow.jpg" class="self-portrait" alt="self-portrait" width="600px"></div>
-    <div><h3>Front end web developer</h3></div> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, possimus recusandae molestiae aliquam cumque atque placeat harum deserunt delectus quae ex earum labore exercitationem sunt architecto? Illum facere maxime velit?
+    <nav>
+        <ul class="nav-links">
+          <a href="/landing/"><i class="fa-solid fa-house"></i></a>
+          <a href="/about/"><i class="fa-solid fa-user"></i></a>
+          <a href="/skills/"><i class="fa-solid fa-screwdriver-wrench"></i></a>
+          <a href="/resume/"><i class="fa-solid fa-file"></i></a>
+          <a href="/projects/"><i class="fa-solid fa-rectangle-history"></i></a>
+          <a href="/testimonials/"><i class="fa-solid fa-comment"></i></a>
+          <a href="/contact/"><i class="fa-solid fa-envelope"></i></a>
+        </ul>
+      </nav>
+    <section class="landing">
+        <h1>Siyolise Mekuto</h1>
+        <p>I'm a web developer</p>
+        <div class="socials">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-skype"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </section>
+    <section class="about">
+        <h2>ABOUT</h2>
+        <div class="info">
+        <img src="./images/siyonow.jpg" alt="Siyolise" class="siyolise">
+        <div id="details">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime temporibus unde excepturi quis eaque et pariatur, ipsa dolores veritatis earum illo exercitationem iusto hic corporis. Obcaecati sint blanditiis nemo?</p>
         <ul>
-          <li>
-            date of birth: 1999 March 7</li>
-           <li>Nationality: South African
-           </li>
-          </ul>
-  </section>
-  <section id=resume>
+            <dl>Date of Birth: 7 March 1999</dl>
+            <dl>Education: Matric 2017</dl>
+        </ul>
+        </div>
+        </div>
+    </section>
+    <section class="skills">
+        <h2>SKILLS</h2>
+        70% HTML<meter value="0.70">70%</meter> 
+        50% CSS<meter value="0.50">50%</meter>
+        80% Microsoft Office<meter value="0.80">80%</meter>
+        40% Github<meter value="0.40">40%</meter> 
+        0% JavaScript<meter value="0.00">00%</meter> 
+        0% Bootstrap<meter value="0.00">00%</meter> 
+    </section>
+    <section class="resume">
+        <h2>RESUME</h2>
+        <div>Education
 
-
-  </section>
-  <section id="portfolio">
-
-  </section>
-  <section id="skills">
-    <h3>SKILLS</h3>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita temporibus blanditiis quidem ab mollitia nostrum quos voluptatem repellat et quis magnam ea dolores necessitatibus, ut quam eum voluptatibus voluptatum inventore!</p>
-HTML:5 80%<meter value="80"></meter>
-CSS 70%<meter value="0.7"></meter>
-  </section>
-  <section id="services">
-
-  </section>
-  <section id="contact">
-
-  </section>
-  
+        </div>
+    </section>
+    <section class="projects">
+        <h2>PROJECTS</h2>
+        <div class="grid-container">
+            <div class="space"><img src="./images/space.png" id="space", height="60px", width="60px"></div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+          </div>
+    </section>
+    <section class="testimonials">
+        <h2>TESTIMONIALS</h2>
+    </section>
+    <section class="contact">
+        <h2>CONTACT</h2>
+        <form>
+            <label>Name</label>
+            <input type="text" name="name">
+            <label>Email</label>
+            <input type="email" name="email">
+            <label>Subject</label>
+            <input type="text" name="subject">
+            <label>Message</label>
+            <textarea type="text" name="message"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p><h4>Copyright Siyolise Mekuto</h4></p>
+    </footer>
 </body>
 </html>
