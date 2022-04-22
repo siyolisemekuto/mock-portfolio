@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Siyolise Mekuto</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/47f71f9d8c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
         <ul class="nav-links">
-          <a href="/landing/"><i class="fa-solid fa-house"></i></a>
-          <a href="/about/"><i class="fa-solid fa-user"></i></a>
-          <a href="/skills/"><i class="fa-solid fa-screwdriver-wrench"></i></a>
-          <a href="/resume/"><i class="fa-solid fa-file"></i></a>
-          <a href="/projects/"><i class="fa-solid fa-rectangle-history"></i></a>
-          <a href="/testimonials/"><i class="fa-solid fa-comment"></i></a>
-          <a href="/contact/"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#home"><i class="fa-solid fa-house"></i></a>
+          <a href="#about"><i class="fa-solid fa-user"></i></a>
+          <a href="#skills"><i class="fa-solid fa-screwdriver-wrench"></i></a>
+          <a href="#resume"><i class="fa-solid fa-file"></i></a>
+          <a href="#projects"><i class="fa-solid fa-rectangle-history"></i></a>
+          <a href="#testimonials"><i class="fa-solid fa-comment"></i></a>
+          <a href="#contact"><i class="fa-solid fa-envelope"></i></a>
         </ul>
       </nav>
-    <section class="landing">
+    <section class="landing" id="home">
         <h1>Siyolise Mekuto</h1>
         <p>I'm a web developer</p>
         <div class="socials">
@@ -31,10 +31,10 @@
             <i class="fa-brands fa-linkedin-in"></i>
         </div>
     </section>
-    <section class="about">
+    <section id="about">
         <h2>ABOUT</h2>
         <div class="info">
-        <img src="./images/siyonow.jpg" alt="Siyolise" class="siyolise">
+        <img src="./images/siyolise.jpg" alt="Siyolise" class="siyolise">
         <div id="details">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium maxime temporibus unde excepturi quis eaque et pariatur, ipsa dolores veritatis earum illo exercitationem iusto hic corporis. Obcaecati sint blanditiis nemo?</p>
         <ul>
@@ -44,7 +44,7 @@
         </div>
         </div>
     </section>
-    <section class="skills">
+    <section id="skills">
         <h2>SKILLS</h2>
         70% HTML<meter value="0.70">70%</meter> 
         50% CSS<meter value="0.50">50%</meter>
@@ -53,40 +53,41 @@
         0% JavaScript<meter value="0.00">00%</meter> 
         0% Bootstrap<meter value="0.00">00%</meter> 
     </section>
-    <section class="resume">
+    <section id="resume">
         <h2>RESUME</h2>
-        <div>Education
-
-        </div>
-    </section>
-    <section class="projects">
-        <h2>PROJECTS</h2>
-        <div class="grid-container">
-            <div class="space"><img src="./images/space.png" id="space", height="60px", width="60px"></div>
-            <div class="grid-item">2</div>
-            <div class="grid-item">3</div>
-            <div class="grid-item">4</div>
-            <div class="grid-item">5</div>
-            <div class="grid-item">6</div>
-            <div class="grid-item">7</div>
-            <div class="grid-item">8</div>
-            <div class="grid-item">9</div>
+        <div><div class="timeline">
+            <div class="container left">
+              <div class="content">
+                <h2>2017</h2>
+                <p>Lorem ipsum..</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>2016</h2>
+                <p>Lorem ipsum..</p>
+              </div>
+            </div>
           </div>
     </section>
-    <section class="testimonials">
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="flip-card">
+            <div class="flip-card"><img src="./images/space.png" id="space", height="60px", width="60px"></div>
+            <div class="flip card">2</div>
+            <div class="flip-card">3</div>
+          </div>
+    </section>
+    <section id="testimonials">
         <h2>TESTIMONIALS</h2>
     </section>
-    <section class="contact">
+    <section id="contact">
         <h2>CONTACT</h2>
         <form>
-            <label>Name</label>
-            <input type="text" name="name">
-            <label>Email</label>
-            <input type="email" name="email">
-            <label>Subject</label>
-            <input type="text" name="subject">
-            <label>Message</label>
-            <textarea type="text" name="message"></textarea>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <textarea type="text" placeholder="Message"></textarea>
             <input type="submit" value="Submit">
         </form>
     </section>
