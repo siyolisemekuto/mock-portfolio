@@ -136,7 +136,19 @@ div.space{
     margin-top: 10px;
 }
 /*contact*/
+.con-location{
+    display: flex;
+    align-items: center;
+}
+.loc-icon{
+    height: 30px;
+    width: 30px;
+}
+.loc-details{
+    padding-bottom: 20px
+}
 form{
+    display: block;
     position: center;
     text-align: center;
     border-style: solid;
@@ -156,6 +168,7 @@ textarea{
     margin-bottom: 4px;
     height: 200px;
 }
+display
 /*footer*/
 footer{
     background-color: rgb(222, 201, 175);
