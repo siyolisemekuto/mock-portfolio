@@ -2,11 +2,10 @@
     font-family: sans-serif;
 }
 section{
-    padding-bottom: 5px;
-    height: 500px;
+    padding-bottom: 30px;
 }
 /*navbar*/
-.nav-links{
+.navbar-nav{
     display:flex;
     flex-direction: column;
     position: fixed;
@@ -32,7 +31,6 @@ ul{
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
-    opacity: 0.7;
     color: #45505B;
     display: flex;
     flex-direction: column;
@@ -42,12 +40,15 @@ ul{
     font-size: 32px;
 }
 /*about*/
+.section-title{
+    text-align: center;
+}
 h2{
     text-align: center;
 }
 .siyolise{
-    height: 300px;
-    width: 350px;
+    height: 296px;
+    width: 296px;
     padding-right: 50px;
     padding-left: 50px;
 }

@@ -7,19 +7,29 @@
     <title>Siyolise Mekuto</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/47f71f9d8c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-    <nav>
-        <ul class="nav-links">
-          <a href="#home">HOME</i></a>
-          <a href="#about">ABOUT</a>
-          <a href="#skills">SKILLS</a>
-          <a href="#resume">RESUME</a>
-          <a href="#projects">PROJECTS</a>
-          <a href="#testimonials">TESTIMONIALS</a>
-          <a href="#contact">CONTACT</a>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex flex-column justify-content-center">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#skills">Skills</a>
+              <a class="nav-link" href="#resume">Resume</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#testimonials">Testimonials</a>
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </div>
+          </div>
+        </div>
       </nav>
+      <!--landing-->
     <section class="landing" id="home">
         <h1>Siyolise Mekuto</h1>
         <p>I'm a web developer</p>
@@ -30,15 +40,50 @@
             <i class="fa-brands fa-skype"></i>
             <i class="fa-brands fa-linkedin-in"></i>
         </div>
+        <!--about-->
     </section>
-    <section id="about">
-        <h2>ABOUT</h2>
-        <div class="info">
-        <img src="./images/siyolise.jpg" alt="Siyolise" class="siyolise">
-        <div id="details">
-        <p>She is a lifelong learner with extensive experience in communications. She hopes to use her technological expertise for business and community development.
-        </P>
-        </div>
+    <section id="about" class="container-fluid">  
+        <div class="section-title col-lg-12">
+            <h2 class="text-center">ABOUT</h2>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi qui reprehenderit sapiente, est exercitationem ut voluptas asperiores illum officiis vitae.</div>   
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-4">
+                <img src="images/siyolise.jpg" class="img-fluid" alt="siyolise">
+            </div>
+            <div class="col-lg-8">
+                <h3>UI/IX Web developer</h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia quis dolorum quod, quam libero aliquid eveniet dolore deserunt, esse iusto pariatur consequuntur? Fugit, omnis. Nisi officia blanditiis necessitatibus, debitis quod consequatur magnam ipsam asperiores rem, unde id nulla provident iste rerum temporibus.</div>
+            <div>
+              <ul class="d-inline">
+                    <il class="col-sm-3 fw-bold">Birthday:</il>
+                    <span>7 March 1999</span>
+                </ul>
+                <ul class="d-inline">
+                    <il class="col-sm-3 fw-bold">Phone:</il>
+                    <span>0634151183</span>
+                </ul>
+                <ul class="d-inline">
+                    <il class="col-sm-3 fw-bold">City:</il>
+                    <span>Cape Town</span>
+                </ul>
+                </div>
+        
+            <div>
+                <ul class="d-inline">
+                    <il class="col-sm-3 fw-bold">Age:</il>
+                    <span>23</span>
+                </ul>
+                <ul class="d-inline">
+                    <il class="col-sm-3 fw-bold">Email:</il>
+                    <span>siyozamekuto2.0@gmail.com</span>
+                </ul>
+                <ul class="d-inline">
+                    <il class="col-sm-3 fw-bold">Freelance:</il>
+                    <span>Available</span>
+                </ul>
+            </div>
+            </div>
         </div>
     </section>
     <section id="skills">
@@ -75,9 +120,9 @@
     <section id="testimonials">
         <h2>TESTIMONIALS</h2>
     </section>
-    <section id="contact">
+    <section id="contacts">
         <h2>CONTACT</h2>
-        <div class="contact">
+        <div class="contacts">
         <div class="con-info">
             <div class="con-location">
                 <div class="loc-icon"><i class="fa-solid fa-location-dot"></i></div>
@@ -88,10 +133,11 @@
                 <div class="email-details"><h4>Email</h4>siyozamekuto2.0@gmail.com</div>
             </div>
             <div>
-                <div><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <div class="con-number"><i class="fa-solid fa-mobile-screen-button"></i></div>
                 <div><h4>Call</h4>(+27)63 415 1183</div>
             </div>
-            <form>
+            </div>
+        <form>
             <input type="text" placeholder="Name">
             <input type="email" placeholder="Email">
             <input type="text" placeholder="Subject">
