@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>Siyolise Mekuto</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/47f71f9d8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex flex-column justify-content-center">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="#home">Home</a>
-              <a class="nav-link" href="#about">About</a>
-              <a class="nav-link" href="#skills">Skills</a>
-              <a class="nav-link" href="#resume">Resume</a>
-              <a class="nav-link" href="#projects">Projects</a>
-              <a class="nav-link" href="#testimonials">Testimonials</a>
-              <a class="nav-link" href="#contacts">Contacts</a>
+                <ul class="nav-link position-fixed top-50 start-0 translate-middle d-flex flex-column justify-content-center align-items-center" id="navlinks" >
+              <li class="nav-link-li bg-light rounded-circle border-5 fs-5 p-3 m-2"><a class="nav-links" aria-current="page" href="#home"><i class="bi bi-house-door"></i><span class="nav-text">Home</span></a></li>
+              <li class="nav-link-li bg-light rounded-circle border-5 fs-5 p-3 m-2"><a class="nav-links" href="#about"><i class="bi bi-person"></i><span class="nav-text">About</span></a></li>
+              <li class="nav-link-li bg-light rounded-circle border-5 fs-5 p-3 m-2"><a class="nav-links" href="#skills"><i class="bi bi-tools"></i><span class="nav-text">Skills</span></a></li>
+              <li class="nav-link-li bg-light rounded-circle border-5 fs-5 p-3 m-2"><a class="nav-links" href="#resume"><i class="bi bi-file-earmark"></i><span class="nav-text">Resume</span></a></li>
+              <li class="nav-link-li bg-light rounded-circle border-5 fs-5 p-3 m-2"><a class="nav-links" href="#projects"><i class="bi bi-journals"></i><span class="nav-text">Projects</span></a></li>
+              <li class="nav-link-li bg-light rounded-circle border-5 fs-5 p-3 m-2"><a class="nav-links" href="#testimonials"><i class="bi bi-people-fill"></i><span class="nav-text">Testimonials</span></a></li>
+              <li class="nav-link-li bg-light rounded-circle border-5 fs-5 p-3 m-2"><a class="nav-links" href="#contacts"><i class="bi bi-envelope"></i><span class="nav-text">Contact</span></a></li>
+              </ul>
             </div>
           </div>
         </div>
@@ -40,87 +40,203 @@
             <i class="fa-brands fa-skype"></i>
             <i class="fa-brands fa-linkedin-in"></i>
         </div>
-        <!--about-->
     </section>
-    <section id="about" class="container-fluid">  
+    <!--about-->
+    <section id="about">  
         <div class="section-title col-lg-12">
             <h2 class="text-center">ABOUT</h2>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi qui reprehenderit sapiente, est exercitationem ut voluptas asperiores illum officiis vitae.</div>   
+        <p classs="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi qui reprehenderit sapiente, est exercitationem ut voluptas asperiores illum officiis vitae.
+        </p>
+      </div>   
         <div class="container">
             <div class="row">
             <div class="col-lg-4">
                 <img src="images/siyolise.jpg" class="img-fluid" alt="siyolise">
             </div>
             <div class="col-lg-8">
-                <h3>UI/IX Web developer</h3>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia quis dolorum quod, quam libero aliquid eveniet dolore deserunt, esse iusto pariatur consequuntur? Fugit, omnis. Nisi officia blanditiis necessitatibus, debitis quod consequatur magnam ipsam asperiores rem, unde id nulla provident iste rerum temporibus.</div>
-            <div>
-              <ul class="d-inline">
-                    <il class="col-sm-3 fw-bold">Birthday:</il>
-                    <span>7 March 1999</span>
-                </ul>
-                <ul class="d-inline">
-                    <il class="col-sm-3 fw-bold">Phone:</il>
-                    <span>0634151183</span>
-                </ul>
-                <ul class="d-inline">
-                    <il class="col-sm-3 fw-bold">City:</il>
-                    <span>Cape Town</span>
-                </ul>
+                <p><h3>Aspiring Web developer</h3>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia quis dolorum quod, quam libero aliquid eveniet dolore deserunt, esse iusto pariatur consequuntur? Fugit, omnis. Nisi officia blanditiis necessitatibus, debitis quod consequatur magnam ipsam asperiores rem, unde id nulla provident iste rerum temporibus.</p>
+              <div class="row">
+                <div class="col-lg-6">
+                   <ul>
+                     <li>
+                       <strong>Birthday:</strong> 
+                        <span>7 March 1999</span>
+                     </li>
+                      <li>
+                        <strong>Languages:</strong> 
+                         <span>English, IsiXhosa, IsiZulu</span>
+                      </li>
+                      <li>
+                        <strong>Phone</strong>
+                        <span>0634151183</span>
+                      </li>
+                      <li><strong>City:</strong>
+                        <span>Cape Town</span>
+                      </li>
+                    </ul>
+                    </div>
+                <div class="col-lg-6">
+                     <li>
+                       <strong>Age:</strong>
+                        <span>23</span>
+                     </li>
+                     <li>
+                      <strong>Highest Grade Passed:</strong>
+                       <span>IEB Grade 12</span>
+                    </li>
+                        <li>
+                          <strong>Email:</strong>
+                        <span>siyozamekuto2.0@gmail.com</span>
+                        </li>
+                        <li>
+                          <strong>Freelance:</strong>
+                        <span>Available</span>
+                        </li>
+                    </ul>
+                    </div>
+                   
                 </div>
-        
-            <div>
-                <ul class="d-inline">
-                    <il class="col-sm-3 fw-bold">Age:</il>
-                    <span>23</span>
-                </ul>
-                <ul class="d-inline">
-                    <il class="col-sm-3 fw-bold">Email:</il>
-                    <span>siyozamekuto2.0@gmail.com</span>
-                </ul>
-                <ul class="d-inline">
-                    <il class="col-sm-3 fw-bold">Freelance:</il>
-                    <span>Available</span>
-                </ul>
-            </div>
-            </div>
         </div>
     </section>
-    <section id="skills">
+    <!-- skills -->
+    <section id="skills d-flex justify-content-center">
         <h2>SKILLS</h2>
-        70% HTML<meter value="0.70">70%</meter> 
-        50% CSS<meter value="0.50">50%</meter>
-        80% Microsoft Office<meter value="0.80">80%</meter>
-        40% Github<meter value="0.40">40%</meter> 
-        0% JavaScript<meter value="0.00">00%</meter> 
-        0% Bootstrap<meter value="0.00">00%</meter> 
+        <div class="row skills-content">
+          <div class="col-lg-6">
+        <div class="progress">
+          <span class="skill">HTML:5</span>
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
     </section>
+    <!-- resume -->
     <section id="resume">
         <h2>RESUME</h2>
-        <div class="container">
-              <h1> Education</h1>
-              <ul class="sessions">
-                <li>
-                  <div class="year">2017</div>
-                  <p>Matric</p>
-                </li>
-                <li>
-                    <div class="year">2021</div>
-                
-          </div> 
-    </section>
-    <section id="projects">
-        <h2>PROJECTS</h2>
-        <div class="grid-container">
-            <div class="grid-container"><img src="./images/space.png" id="space", height="60px", width="60px"></div>
-            <div class="grid-container">2</div>
-            <div class="grid-container">3</div>
+        <Section id="Resume">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="card">
+                          <div class="card-body">
+                              <h1 class="card-title">Resume</h1>
+                              <div id="content">
+                                  <ul class="timeline">
+                                      <li class="event" data-date="2015">
+                                          <h3>Highest Grade Passed</h3>
+                                          <p>Grade 12 (Matric)</p>
+                                          <p>Oprah Winfrey Leadership Academy fir Girls</p>
+                                      </li>
+                                      <li class="event" data-date="2016-2018">
+                                          <h3>Zobuhle Caterings</h3>
+                                          <p> Role: Chef assistant and Sales girl.
+                                              <br>
+                                            Call:021 694 7940 (Nokwanda)
+                                            <br>
+                                           Email: Zobuhle-Catering@gmail.com
+                                      </p>
+                                      </li>
+                                      <li class="event" data-date="2019-2021">
+                                          <h3>Ta-Soja Transportation</h3>
+                                          <p> Role: Driver & Customer Care Agent
+                                              <br>
+                                              Call: 0738785903
+                                              <br>
+                                              Email: Tasojatransports@gmail.com
+                                              <br>
+                                             </p>
+                                      </li>
+                                      <li class="event" data-date="2022">
+                                          <h3>Life Choices Academy</h3>
+                                          <p> Fullstack Development Student
+                                              <br>
+                                              314 Imam Heron Road
+                                              <br>
+                                              Cape Town 7780
+                                              <br>
+                                              Call: 201 696 4157
+                                              <br>
+                                              Email: info@lifechoices.co.za
+                                              </p>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
+          </Section>
+                
+        
     </section>
-    <section id="testimonials">
-        <h2>TESTIMONIALS</h2>
+    <!-- projects -->
+    <section id="projects" class="py-5 text-center bg-white">
+        <div class="container">
+          <h2 class="mb-5">PROJECTS</h2>
+          <div class="project-container">
+            <img class="shadow-md" data-bs-toggle="modal" data-bs-target="#project1" src="https://picsum.photos/400/300?random=1">
+            <img class="shadow-md" data-bs-toggle="modal" data-bs-target="#project2" src="https://picsum.photos/250/400?random=2">
+            <img class="shadow-md" data-bs-toggle="modal" data-bs-target="#project3" src="https://picsum.photos/200/300?random=3">
+            <img class="shadow-md" data-bs-toggle="modal" data-bs-target="#project4" src="https://picsum.photos/400/200?random=4">
+            <img class="shadow-md" data-bs-toggle="modal" data-bs-target="#project5" src="https://picsum.photos/350?random=5">
+          </div>
+        </div>     
     </section>
-    <section id="contacts">
+    <!--testimonials-->
+    <section id="testimonials" class="py-5 mt-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Testimonials</h2>
+            <div id="testimonialSlider" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="0" class="active rounded-circle"  style="width: 20px; height: 20px;" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="1" class="rounded-circle"  style="width: 20px; height: 20px;" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#testimonialSlider" data-bs-slide-to="2" class="rounded-circle"  style="width: 20px; height: 20px;"aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item pb-5 text-center active">
+                    <div>
+                        <img src="./images/smangele.jpg" class="rounded-circle mb-5" style="width: 180px; height: 180px;" alt="Person">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item pb-5 text-center">
+                    <div>
+                        <img src="./images/Lihle.jpg" class="rounded-circle mb-5" style="width: 180px; height: 180px;" alt="Person">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item pb-5 text-center">
+                    <div>
+                        <img src="/boy1.jpg" class="rounded-circle mb-5" style="width: 180px; height: 180px;" alt="Person">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialSlider" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialSlider" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+ <!--contacts -->
+    <section id="container">
         <h2>CONTACT</h2>
         <div class="contacts">
         <div class="con-info">
@@ -149,5 +265,134 @@
     <footer>
         <p><h4>Copyright Siyolise Mekuto</h4></p>
     </footer>
+    <!-- modals for projects -->
+    <!-- project1 modal -->
+    <div class="modal fade" id="project1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog mw-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Poject 1:Contact Page</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">   
+                  <img class="fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" src="https://picsum.photos/400/300?random=1">
+                </div>
+                <div class="col-md-6">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla? Vel itaque delectus fugiat quo aliquid pariatur ut, magnam, quis obcaecati velit aspernatur est, dolorem sunt voluptatem nihil nesciunt. Vero?</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="link-to-github" target="_blank">Github</a>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- project2 modal-->
+    <div class="modal fade" id="project2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog mw-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Poject 2:Calculator</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">   
+                  <img class="fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" src="https://picsum.photos/400/300?random=1">
+                </div>
+                <div class="col-md-6">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla? Vel itaque delectus fugiat quo aliquid pariatur ut, magnam, quis obcaecati velit aspernatur est, dolorem sunt voluptatem nihil nesciunt. Vero?</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="link-to-github" target="https://github.com/siyolisemekuto/calculator">Github</a>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- project3 modal-->
+    <div class="modal fade" id="project3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog mw-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Poject 3:Holiday Destination</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">   
+                  <img class="fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" src="https://picsum.photos/400/300?random=1">
+                </div>
+                <div class="col-md-6">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla? Vel itaque delectus fugiat quo aliquid pariatur ut, magnam, quis obcaecati velit aspernatur est, dolorem sunt voluptatem nihil nesciunt. Vero?</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- project4 modal-->
+    <div class="modal fade" id="project4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog mw-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Poject 4:Bootstrap</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">   
+                  <img class="fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" src="https://picsum.photos/400/300?random=1">
+                </div>
+                <div class="col-md-6">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla? Vel itaque delectus fugiat quo aliquid pariatur ut, magnam, quis obcaecati velit aspernatur est, dolorem sunt voluptatem nihil nesciunt. Vero?</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- project5 modal-->
+    <div class="modal fade" id="project5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog mw-100">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Poject 5:TBA</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">   
+                  <img class="fluid" data-bs-toggle="modal" data-bs-target="#exampleModal" src="https://picsum.photos/400/300?random=1">
+                </div>
+                <div class="col-md-6">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla? Vel itaque delectus fugiat quo aliquid pariatur ut, magnam, quis obcaecati velit aspernatur est, dolorem sunt voluptatem nihil nesciunt. Vero?</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
