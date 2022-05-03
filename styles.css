@@ -2,14 +2,14 @@
     font-family: sans-serif;
 }
 section{
-    padding-bottom: 50px;
+    padding: 50px 0px;
     transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 /*navbar*/
 .navbar-nav ul{
     display:inline;
     list-style-type: none;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 li span{
     /* display: none; */
@@ -30,13 +30,13 @@ li span{
     transition:all 0.3s linear;
     display: block;
 }
-.li .navlink-li{
+.li .navlink{
     border-radius: 600px !important;
 }
 /*landing*/
 .landing{
     height: 100vh;
-    background-image: url(images/siyomain.jpg);  
+    background-image: url(./images/pexels-jess-bailey-designs-1558690.jpg);  
     background-size:cover;
     background-position: center;
     background-repeat:no-repeat;
@@ -45,13 +45,17 @@ li span{
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
-    color: #45505B;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     line-height: 36px; 
     font-size: 32px;
+    padding-left: 300px;
+    padding-top: 20px;
+}
+.landing h1{
+    font-size: 64px;
 }
 /*about*/
 .col-lg-6{
@@ -72,6 +76,9 @@ list-style: none;
     padding-right: 50px;
     padding-left: 50px;
 }
+h3{
+    color: #200;
+}
 
 /*testimonials*/
 .carousel-indicators{  
@@ -89,6 +96,10 @@ div.progress{
     margin-left:50px;
     margin-bottom: 15px;
 }
+.skill{
+    padding: 10px 0px;
+    display: block;
+}
 
 /*projects*/
 .project-container{
@@ -105,8 +116,7 @@ div.progress{
 }
 /*contact*/
 .con-location{
-    display: flex;
-    align-items: center;
+    display: border-box;
 }
 .loc-icon{
     height: 30px;
